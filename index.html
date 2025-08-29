@@ -1806,7 +1806,7 @@ function showEndBanner(amount, type='chips', pct=null, target='game'){
     </div>
     ${extraMsg}
     <div style="margin-top:10px">
-      <a class="btn primary" href="${link}" target="_blank" rel="noopener">Reclamar por WhatsApp</a>
+     <div class="btn primary">Reclamar por WSP</div>
     </div>
   `;
   container.classList.remove('hidden');
@@ -1884,7 +1884,7 @@ function lose(msg='Respuesta incorrecta.'){
       😅 ${msg} Al menos ganaste <b>${money(BASE_PRIZE)}</b> por participar.
     </div>
     <div style="margin-top:10px">
-      <a class="btn primary" href="${waLink(BASE_PRIZE)}" target="_blank" rel="noopener">Reclamar por WhatsApp</a>
+      <div class="btn primary">Reclamar por WSP</div>
     </div>`;
   endBanner.classList.remove('hidden');
 
